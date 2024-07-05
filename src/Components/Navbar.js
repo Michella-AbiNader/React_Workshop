@@ -4,7 +4,7 @@ import "../Styles/Navbar.css" //to import the css file
 
 function Navbar() {
   return (
-    <div>
+    <div className="Navbar-Container">
         <ul>
             <li>
                 <Link to="/use-state">useState</Link>   {/* to instead of href in html*/}
@@ -17,6 +17,12 @@ function Navbar() {
             </li>
             <li>
                 <Link to = "/use-ref">useRef</Link>
+            </li>
+            <li>
+                <Link to = "/use-reducer">useReducer</Link>
+            </li>
+            <li>
+                <Link to = "/use-callback">useCallback</Link>
             </li>
         </ul>
     </div>

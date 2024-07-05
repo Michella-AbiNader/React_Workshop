@@ -1,4 +1,5 @@
 import React, {useRef, useEffect} from 'react'
+//close to useEffect, more strict, when i want to reset a form, khafef 4adad l rendering
 //used to stop a rendering for example
 function Example1() {
     const inputRef = useRef(null)

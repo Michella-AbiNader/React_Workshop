@@ -7,6 +7,8 @@ import UseState from './Pages/UseState';
 import UseEffect from './Pages/UseEffect';
 import UseContext from './Pages/UseContext';//BrowserRouter: for the web
 import UseRef from './Pages/UseRef';
+import UseReducer from './Pages/UseReducer';
+import UseCallback from './Pages/UseCallback';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           <Route path = '/use-effect' element = {<UseEffect/>}></Route>
           <Route path = '/use-context' element = {<UseContext/>}></Route>
           <Route path = '/use-ref' element = {<UseRef/>}></Route>
+          <Route path = '/use-reducer' element = {<UseReducer/>}></Route>
+          <Route path = '/use-callback' element = {<UseCallback/>}></Route>
 
         </Routes>
       </BrowserRouter>

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-
+//used when i want an action to happen on render
 function CounterComponent() {
     const [count, setCount] = useState(0);
     useEffect( ()=>{
