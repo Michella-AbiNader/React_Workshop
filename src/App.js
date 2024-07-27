@@ -9,6 +9,8 @@ import UseContext from './Pages/UseContext';//BrowserRouter: for the web
 import UseRef from './Pages/UseRef';
 import UseReducer from './Pages/UseReducer';
 import UseCallback from './Pages/UseCallback';
+import UseMemo from './Pages/UseMemo';
+import CustomHook from './Pages/CustomHook';
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
           <Route path = '/use-ref' element = {<UseRef/>}></Route>
           <Route path = '/use-reducer' element = {<UseReducer/>}></Route>
           <Route path = '/use-callback' element = {<UseCallback/>}></Route>
+          <Route path = '/use-memo' element = {<UseMemo/>}></Route>
+          <Route path = '/custom-hook' element = {<CustomHook/>}></Route>
 
         </Routes>
       </BrowserRouter>

@@ -24,6 +24,13 @@ function Navbar() {
             <li>
                 <Link to = "/use-callback">useCallback</Link>
             </li>
+            <li>
+                <Link to = "/use-memo">useMemo</Link>
+            </li>
+            <li>
+                <Link to = "/custom-hook">Custom Hook</Link>
+            </li>
+
         </ul>
     </div>
   )
